@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+//import { Link } from 'react-router';
 import logo from './logo.svg';
 import './bootstrap.css';
 import './App.css';
@@ -14,7 +15,21 @@ class App extends Component {
         <p className="firstSentence">How to start with CSS read here</p><br/>
         <h3>Lorem ipsum</h3>
         <button className="button">Click on me</button>
-      </div>
+     <br/>
+      <div>
+      <header>
+        This is my website!
+      </header>
+
+      <main>
+        {this.props.children}
+      </main>
+
+      <footer>
+        Your copyright message <a href="./page1">link to</a>
+      </footer>
+    </div>
+    </div>
     );
   }
 }
