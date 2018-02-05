@@ -11,8 +11,9 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to React</h2>
         </div>
-        <p className="firstSentence">Here first words</p>
-        <button></button>
+        <p className="firstSentence">How to start with CSS read here</p><br/>
+        <h3>Lorem ipsum</h3>
+        <button className="button">Click on me</button>
       </div>
     );
   }
